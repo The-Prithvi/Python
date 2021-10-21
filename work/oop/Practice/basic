@@ -1,0 +1,13 @@
+class programmer:
+    company = "SU Company"
+    def __init__(self, name, id, desk):
+        self.name = name
+        self.id = id
+        self.desk = desk
+    def info(self):
+        print("Name-{}".format(self.name), "\nID-{}".format(self.id), "\nDesk No.-{}\n".format(self.desk))
+programmer1 = programmer("Saha", "0012D", "A2")
+programmer2 = programmer("Chalin", "0025D", "B1")
+programmer1.info()
+programmer2.info()
+print(programmer2.company)
